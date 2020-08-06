@@ -1,0 +1,8 @@
+<h1>Student Information</h1>
+
+<h5>First Name: <%= @student.first_name %></h5>
+<h5>Last Name: <%= @student.last_name %></h5>
+
+<div><%= link_to "Edit Student", edit_student_path(@student)%></div>
+
+<div><%= link_to "List of Students", students_path %></div>
